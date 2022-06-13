@@ -1,0 +1,8 @@
+p{
+    padding: 20px;
+    border-width: 3px;
+    border-style: double;
+    border-color: rgba(128, 0, 96, 0.993);
+    background-color: tomato;
+    color: greenyellow;
+}

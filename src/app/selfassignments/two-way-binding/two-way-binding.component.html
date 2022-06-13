@@ -1,0 +1,11 @@
+<h5>Put your username</h5>
+<input type="text" class="form-control" [(ngModel)]="userName" />
+<p>{{ userName }}</p>
+<button
+  type="button"
+  class="btn btn-light"
+  [disabled]="userName === ''"
+  (click)="onClickReset()"
+>
+  Reset
+</button>
