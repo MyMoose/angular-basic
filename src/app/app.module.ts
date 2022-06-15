@@ -12,6 +12,8 @@ import { WarningAlertComponent } from './selfassignments/warningalert/warningale
 import { SuccessalertComponent } from './selfassignments/successalert/successalert.component';
 import { TwoWayBindingComponent } from './selfassignments/two-way-binding/two-way-binding.component';
 import { DirectivesComponent } from './selfassignments/directives/directives.component';
+import { DirectivesTwoComponent } from './selfassignments/directives-two/directives-two.component';
+
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { DirectivesComponent } from './selfassignments/directives/directives.com
     SuccessalertComponent,
     TwoWayBindingComponent,
     DirectivesComponent,
+    DirectivesTwoComponent,
+    
   ],
   imports: [
     BrowserModule,
