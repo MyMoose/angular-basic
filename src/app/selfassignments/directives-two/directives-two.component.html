@@ -1,0 +1,14 @@
+<button class="btn btn-light" (click)="onClick()">Display Details</button>
+
+<p *ngIf="showPassword">Your Password is Salmon {{ onClickCounter }}</p>
+<div>
+  <p
+    *ngFor="let count of arrayOfCounts"
+    [ngStyle]="{
+      'background-color': count >= 5 ? backgroundColor() : 'transparent'
+    }"
+    [ngClass]="{ 'text-color': count > 4 }"
+  >
+    {{ count }}
+  </p>
+</div>
